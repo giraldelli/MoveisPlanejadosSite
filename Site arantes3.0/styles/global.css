@@ -1,0 +1,58 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 550;
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--secondary);
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: var(--medium);
+  font-weight: 400;
+}
+
+/* --BOTÕES-- */
+.button {
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+  
+  .button-primary {
+    background-color: #f58634;
+    border-color:#f58634;
+    color: white !important;
+    font-weight: 300;
+  }
+  
+  .button-primary:hover {
+    background-color: #e96303;
+    border-color:#e96303;
+    color: white !important;
+  
+  }
+  
+  .button-primary-outline {
+    border-color:#f58634;
+    color: #f58634;
+    padding: 8px 30px;
+  }
+  
+  .button-primary-outline:hover {
+    background-color: #f58634;
+    border-color: #f58634;
+  }

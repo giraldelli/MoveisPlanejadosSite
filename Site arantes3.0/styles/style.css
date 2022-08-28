@@ -1,0 +1,108 @@
+@import url(global.css);
+@import url(responsive.css);
+
+body,
+html {
+  font-family: 'Righteous', cursive;
+}
+
+/* --HEADER-- */
+#header.active {
+    position: fixed;
+    background: transparent;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+  
+#header{
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+    width: auto;
+  }
+  
+  #header .nav-link { 
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    color: rgb(255, 255, 255);
+    border-bottom: solid 4px transparent;
+  }
+  
+  #header .nav-link:hover {
+    border-bottom: solid 4px #f58634;
+    color: #f58634;
+  }
+
+ 
+.background{
+    background-image:url(/assets/img-header.jpg);
+    background-size: cover; 
+    
+}
+#header img{
+    margin-left: 70px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    margin-right: 70px;
+}
+
+/* --SOBRE NOS-- */
+
+.rounded {
+    
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 7px 7px 7px -5px;
+}
+
+/* --FALE CONOSCO-- */
+.fale-conosco .button-primary-outline {
+    background-color: #f58634;
+    border-color: #f58634;
+    color: white;
+    
+    padding: 12px 30px;
+  }
+.fale-conosco .button-primary-outline:hover {
+    background-color: white;
+    border-color:#f58634;
+    color: #f58634;
+  }
+.fale-conosco #orcamento{
+    background-color: rgb(250, 238, 223);
+}
+
+.bg-dark {
+  --bs-bg-opacity:.8;
+  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+
+#header.active {
+  position: fixed;
+  background: transparent;
+  box-shadow: 0 0 30px 0 rgb(0 0 0 / 20%);
+  z-index: 9999;
+  --bs-bg-opacity:.8;
+  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+
+.svg:before {
+    content: "\f232";
+}
+
+.diferenciais{
+    background-color: #eff1f3;
+}
+
+.rounded-top {
+   
+    border-radius: 13px 13px 13px 13px !important;
+    box-shadow: 5px 5px 7px -4px;
+    margin-left: 0px !important;
+}
